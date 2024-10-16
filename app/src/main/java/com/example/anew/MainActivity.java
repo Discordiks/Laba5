@@ -1,7 +1,8 @@
 package com.example.anew;
 
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity
                 = findViewById(R.id.bottomNav);
         bottomNavigationView
                 .setOnNavigationItemSelectedListener(this);
-        bottomNavigationView.setSelectedItemId(R.id.Contact);
+        bottomNavigationView.setSelectedItemId(R.id.Test);
     }
     ContactFragment ContactFragment = new ContactFragment();
     TestFragment TestFragment = new TestFragment();
