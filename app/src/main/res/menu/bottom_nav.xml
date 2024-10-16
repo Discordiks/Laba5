@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Contact"
+        android:title="Обратная связь"
+        android:icon="@drawable/phone_24"/>
+    <item
+        android:id="@+id/Test"
+        android:title="Тестирование"
+        android:icon="@drawable/quiz_24"/>
+    <item
+        android:id="@+id/Notification"
+        android:title="Уведомления"
+        android:icon="@drawable/notification_24"/>
+</menu>
